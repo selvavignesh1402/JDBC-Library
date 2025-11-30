@@ -38,17 +38,9 @@ JDBC Driver	mysql-connector-java
 Architecture	DAO Pattern
 IDE	Eclipse
 📁 Project Structure
-LibrarySystem/
- ├── src/main/java/com/library/
- │      ├── Book.java
- │      ├── BookDAO.java
- │      ├── Member.java
- │      ├── Rental.java
- │      ├── DBConnection.java
- │      └── Main.java
- ├── src/main/resources/
- ├── pom.xml
- └── README.md
+
+<img width="947" height="420" alt="image" src="https://github.com/user-attachments/assets/ef3e82f2-48d8-4631-8a03-0ece7eeb0927" />
+
 
 Database Schema (MySQL)
 
