@@ -1,4 +1,4 @@
-# 📚 Library Management System  
+# Library Management System  
 ### Java • JDBC • Maven • MySQL
 
 A console-based Library Management System that manages books, members, and book rentals using Java, JDBC, and MySQL.  
@@ -6,7 +6,7 @@ This project follows the DAO pattern and demonstrates CRUD operations, SQL joins
 
 ---
 
-## 🔹 1. Features
+##  1. Features
 
 ### 📘 Book Management
 - Add a new book  
@@ -24,29 +24,27 @@ This project follows the DAO pattern and demonstrates CRUD operations, SQL joins
 
 ---
 
-## 🔹 2. Technologies Used
+##  2. Technologies Used
 
-| Component | Technology |
-|----------|------------|
-| Language | Java SE 8 |
-| Build Tool | Maven |
-| Database | MySQL |
-| JDBC Driver | mysql-connector-java |
-| Architecture | DAO Pattern |
-| IDE | Eclipse / IntelliJ |
+| Component    | Technology                   |
+| ------------ | ---------------------------- |
+| Language     | Java SE 8                    |
+| Build Tool   | Maven                        |
+| Database     | MySQL                        |
+| JDBC Driver  | mysql-connector-java         |
+| Architecture | DAO Pattern                  |
+| IDE          | Eclipse / IntelliJ / VS Code |
 
 ---
 
-## 🔹 3. Project Structure
+##  3. Project Structure
 
-```
 <img width="660" height="365" alt="image" src="https://github.com/user-attachments/assets/50a5a590-2051-4121-9dda-c3cd53fe8f83" />
 
-```
 
 ---
 
-## 🔹 4. Database Setup (MySQL)
+##  4. Database Setup (MySQL)
 
 Run the following commands:
 
@@ -81,7 +79,7 @@ CREATE TABLE rental (
 
 ---
 
-## 🔹 5. JDBC Configuration  
+##  5. JDBC Configuration  
 In `DBConnection.java`:
 
 ```java
@@ -94,7 +92,7 @@ Update username/password if necessary.
 
 ---
 
-## 🔹 6. How to Run
+##  6. How to Run
 
 1. Install MySQL and create the database  
 2. Open the project in Eclipse / IntelliJ  
@@ -120,7 +118,7 @@ Update username/password if necessary.
 
 ---
 
-## 🔹 8. Sample Output
+##  8. Sample Output
 
 ```
 Title: Harry Potter
@@ -132,7 +130,7 @@ Book added successfully!
 
 ---
 
-## 🔹 9. Future Enhancements
+##  9. Future Enhancements
 - Fine calculation for late returns  
 - Admin login  
 - GUI using JavaFX or Swing  
@@ -140,7 +138,7 @@ Book added successfully!
 
 ---
 
-## 🔹 10. Author
+##  10. Author
 Library Management System Mini Project  
 Developed by: **Batman🦇**
 
