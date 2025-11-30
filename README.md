@@ -7,16 +7,16 @@ This project follows the DAO pattern and demonstrates CRUD operations, SQL joins
 
 ##  1. Features
 
-### 📘 Book Management
+###  Book Management
 - Add a new book  
 - View all books  
 - Auto-update copies on issue/return  
 
-### 👤 Member Management
+###  Member Management
 - Add a new member  
 - View members  
 
-### 🔄 Rental Management
+###  Rental Management
 - Issue a book  
 - Return a book  
 - View issued books (joined data)
@@ -95,7 +95,7 @@ Update username/password if necessary.
 5. Use the menu in the console  
 
 
-## 🔹 7. Application Menu
+##  7. Application Menu
 
 ```
 ==== LIBRARY SYSTEM ====
