@@ -81,13 +81,15 @@ CREATE TABLE rental (
     FOREIGN KEY(book_id) REFERENCES book(id)
 );
 
-🔌 JDBC Database Configuration
+JDBC Database Configuration
+
 DBConnection.java
 private static final String URL = "jdbc:mysql://localhost:3306/librarydb";
 private static final String USER = "";
 private static final String PASSWORD = "";
 
-🚀 How to Run the Project
+How to Run the Project
+
 1️⃣ Clone or Download the project
 git clone https://github.com/selvavignesh1402/LibrarySystem.git
 
@@ -103,7 +105,7 @@ Maven will automatically download dependencies.
 
 Execute the Main.java file.
 
-🖥️ Application Menu
+Application Menu
 
 Your program displays:
 
