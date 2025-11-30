@@ -4,7 +4,6 @@
 A console-based Library Management System that manages books, members, and book rentals using Java, JDBC, and MySQL.  
 This project follows the DAO pattern and demonstrates CRUD operations, SQL joins, and database connectivity using JDBC.
 
----
 
 ##  1. Features
 
@@ -22,7 +21,6 @@ This project follows the DAO pattern and demonstrates CRUD operations, SQL joins
 - Return a book  
 - View issued books (joined data)
 
----
 
 ##  2. Technologies Used
 
@@ -35,14 +33,12 @@ This project follows the DAO pattern and demonstrates CRUD operations, SQL joins
 | Architecture | DAO Pattern                  |
 | IDE          | Eclipse / IntelliJ / VS Code |
 
----
 
 ##  3. Project Structure
 
 <img width="660" height="365" alt="image" src="https://github.com/user-attachments/assets/50a5a590-2051-4121-9dda-c3cd53fe8f83" />
 
 
----
 
 ##  4. Database Setup (MySQL)
 
@@ -77,7 +73,6 @@ CREATE TABLE rental (
 );
 ```
 
----
 
 ##  5. JDBC Configuration  
 In `DBConnection.java`:
@@ -90,7 +85,6 @@ private static final String PASSWORD = "root";
 
 Update username/password if necessary.
 
----
 
 ##  6. How to Run
 
@@ -100,7 +94,6 @@ Update username/password if necessary.
 4. Run `Main.java`  
 5. Use the menu in the console  
 
----
 
 ## 🔹 7. Application Menu
 
@@ -116,29 +109,15 @@ Update username/password if necessary.
 0. Exit
 ```
 
----
 
 ##  8. Sample Output
 
-```
+
 Title: Harry Potter
 Author: J.K. Rowling
 Genre: Fantasy
 Copies: 5
 Book added successfully!
-```
 
----
 
-##  9. Future Enhancements
-- Fine calculation for late returns  
-- Admin login  
-- GUI using JavaFX or Swing  
-- REST API using Spring Boot  
-
----
-
-##  10. Author
-Library Management System Mini Project  
-Developed by: **Batman🦇**
 
