@@ -1,51 +1,56 @@
-Library Management System
-Java + Maven + JDBC + MySQL
+# 📚 Library Management System  
+### Java • JDBC • Maven • MySQL
 
-Project Overview
+A console-based Library Management System that manages books, members, and book rentals using Java, JDBC, and MySQL.  
+This project follows the DAO pattern and demonstrates CRUD operations, SQL joins, and database connectivity using JDBC.
 
-The Library Management System is a console-based application built using Java, JDBC, Maven, and MySQL.
+---
 
-It allows librarians to manage:
+## 🔹 1. Features
 
-Books
+### 📘 Book Management
+- Add a new book  
+- View all books  
+- Auto-update copies on issue/return  
 
-Members
+### 👤 Member Management
+- Add a new member  
+- View members  
 
-Book Issue & Return
+### 🔄 Rental Management
+- Issue a book  
+- Return a book  
+- View issued books (joined data)
 
-Rental History
+---
 
-This project demonstrates:
+## 🔹 2. Technologies Used
 
-RDBMS concepts
+| Component | Technology |
+|----------|------------|
+| Language | Java SE 8 |
+| Build Tool | Maven |
+| Database | MySQL |
+| JDBC Driver | mysql-connector-java |
+| Architecture | DAO Pattern |
+| IDE | Eclipse / IntelliJ |
 
-JDBC connectivity
+---
 
-DAO pattern
+## 🔹 3. Project Structure
 
-Multi-table operations
+```
+<img width="660" height="365" alt="image" src="https://github.com/user-attachments/assets/50a5a590-2051-4121-9dda-c3cd53fe8f83" />
 
-CRUD operations
+```
 
-Maven-based project structure
+---
 
-Technologies Used
-Component	Technology
-Language	Java
-Build Tool	Maven
-Database	MySQL
-JDBC Driver	mysql-connector-java
-Architecture	DAO Pattern
-IDE	Eclipse
-📁 Project Structure
+## 🔹 4. Database Setup (MySQL)
 
-<img width="947" height="420" alt="image" src="https://github.com/user-attachments/assets/ef3e82f2-48d8-4631-8a03-0ece7eeb0927" />
+Run the following commands:
 
-
-Database Schema (MySQL)
-
-Run these queries:
-
+```sql
 CREATE DATABASE librarydb;
 USE librarydb;
 
@@ -72,35 +77,36 @@ CREATE TABLE rental (
     FOREIGN KEY(member_id) REFERENCES member(id),
     FOREIGN KEY(book_id) REFERENCES book(id)
 );
+```
 
-JDBC Database Configuration
+---
 
-DBConnection.java
+## 🔹 5. JDBC Configuration  
+In `DBConnection.java`:
+
+```java
 private static final String URL = "jdbc:mysql://localhost:3306/librarydb";
-private static final String USER = "";
-private static final String PASSWORD = "";
+private static final String USER = "root";
+private static final String PASSWORD = "root";
+```
 
-How to Run the Project
+Update username/password if necessary.
 
-1️⃣ Clone or Download the project
-git clone https://github.com/selvavignesh1402/LibrarySystem.git
+---
 
-2️⃣ Install MySQL
+## 🔹 6. How to Run
 
-Create the DB using the SQL above.
+1. Install MySQL and create the database  
+2. Open the project in Eclipse / IntelliJ  
+3. Maven will download dependencies automatically  
+4. Run `Main.java`  
+5. Use the menu in the console  
 
-3️⃣ Open Project in Eclipse
+---
 
-Maven will automatically download dependencies.
+## 🔹 7. Application Menu
 
-4️⃣ Run the project
-
-Execute the Main.java file.
-
-Application Menu
-
-Your program displays:
-
+```
 ==== LIBRARY SYSTEM ====
 1. Add Book
 2. View Books
@@ -110,68 +116,31 @@ Your program displays:
 6. Return Book
 7. View Issued Books
 0. Exit
+```
 
-Add Book
+---
 
-Enter Title, Author, Genre, Copies → saved into DB.
+## 🔹 8. Sample Output
 
-Add Member
-
-Enter Name & Phone → saved into DB.
-
-Issue a Book
-
-Decreases book copies by 1
-
-Adds entry into rental table
-
-Return Book
-
-Updates return_date
-
-Increases book copies
-
-View Issued Books
-
-Shows joined data from rental + member + book.
-
-DAO Classes
-BookDAO
-
-addBook()
-
-viewBooks()
-
-updateCopies()
-
-Member
-
-addMember()
-
-viewMembers()
-
-Rental
-
-issueBook()
-
-returnBook()
-
-viewIssuedBooks()
-
-Sample Output
-==== LIBRARY SYSTEM ====
-1. Add Book
-2. View Books
-3. Add Member
-4. View Members
-5. Issue Book
-6. Return Book
-7. View Issued Books
-0. Exit
-Enter choice: 1
-
+```
 Title: Harry Potter
 Author: J.K. Rowling
 Genre: Fantasy
 Copies: 5
 Book added successfully!
+```
+
+---
+
+## 🔹 9. Future Enhancements
+- Fine calculation for late returns  
+- Admin login  
+- GUI using JavaFX or Swing  
+- REST API using Spring Boot  
+
+---
+
+## 🔹 10. Author
+Library Management System Mini Project  
+Developed by: **Batman🦇**
+
