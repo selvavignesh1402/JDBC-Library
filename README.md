@@ -89,7 +89,7 @@ private static final String PASSWORD = "";
 
 🚀 How to Run the Project
 1️⃣ Clone or Download the project
-git clone https://github.com/your-repo/LibrarySystem.git
+git clone https://github.com/selvavignesh1402/LibrarySystem.git
 
 2️⃣ Install MySQL
 
