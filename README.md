@@ -36,8 +36,7 @@ This project follows the DAO pattern and demonstrates CRUD operations, SQL joins
 
 ##  3. Project Structure
 
-<img width="660" height="365" alt="image" src="https://github.com/user-attachments/assets/50a5a590-2051-4121-9dda-c3cd53fe8f83" />
-
+<img width="474" height="517" alt="image" src="https://github.com/user-attachments/assets/51759d34-a1a7-4c07-a746-75e6bea6fd3b" />
 
 
 ##  4. Database Setup (MySQL)
